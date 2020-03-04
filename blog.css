@@ -1,0 +1,43 @@
+h5 {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #0088cc;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 2.0rem;
+	margin-left: 10px;
+}
+
+p {
+	color: #737373;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+p:nth-of-type(1) {
+	border-left: solid 5px #cccccc;
+	padding-left: 5px;
+}
+
+p:nth-of-type(3) {
+	border-bottom: solid 2px #cccccc;
+	padding-bottom: 10px;
+}
+
+/* h5, h1, p {
+	box-sizing: border-box;
+} */
+
+body {
+	border: solid 15px #cccccc;
+	margin: 10px auto;
+	max-width: 700px;
+	width: 80%;
+	padding: 20px;
+	font-family: "Source Sans Pro";
+}
